@@ -8,6 +8,7 @@ export default new Vuex.Store({
     title: 'Darwin Do',
     links: ['http://google.com', 'http://youtube.com', 'http://coursera.com'],
   },
+
   mutations: {
     ADD_LINK: (state, link) => {
       state.links.push(link);
